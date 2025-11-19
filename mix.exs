@@ -21,7 +21,7 @@ defmodule Ex9P.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:typedstruct, "~> 0.5"},
+      {:typedstruct, "~> 0.5.4"},
       {:dialyxir, "~> 1.4", runtime: false, only: [:dev, :test]}
     ]
   end
